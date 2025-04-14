@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: wadler-lindig
-  version: "0.1.4"
+  version: "0.1.5"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/wadler_lindig-${{ version }}.tar.gz
-  sha256: 75aa3ddd384573c41d5c910fd990e655c2a641e5093cf5081650d0229daf87ad
+  sha256: c8d6c0e74fc61c7108077009238b7f5a5a52b25f75e024dac313393faf7f7440
 
 build:
   number: 0
