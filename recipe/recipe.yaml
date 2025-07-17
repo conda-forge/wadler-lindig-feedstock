@@ -10,7 +10,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/wadler-lindig-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/wadler_lindig-${{ version }}.tar.gz
   sha256: 81d14d3fe77d441acf3ebd7f4aefac20c74128bf460e84b512806dccf7b2cd55
 
 build:
